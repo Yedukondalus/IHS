@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "PresentationLayer\PresentationLayer.csproj", "{29C55CB7-4A95-46ED-9274-CCD906339A48}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3226034D-0B61-455D-BECB-96DEDE2C871D} = {3226034D-0B61-455D-BECB-96DEDE2C871D}
+		{0A46DCC9-3DCA-43A3-9B0B-A00658D6D7C5} = {0A46DCC9-3DCA-43A3-9B0B-A00658D6D7C5}
+		{FEF951E4-5F4B-4944-B6B4-F61BB5FDB47B} = {FEF951E4-5F4B-4944-B6B4-F61BB5FDB47B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessAccess", "BusinessAccess\BusinessAccess.csproj", "{FEF951E4-5F4B-4944-B6B4-F61BB5FDB47B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3226034D-0B61-455D-BECB-96DEDE2C871D} = {3226034D-0B61-455D-BECB-96DEDE2C871D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{0A46DCC9-3DCA-43A3-9B0B-A00658D6D7C5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3226034D-0B61-455D-BECB-96DEDE2C871D} = {3226034D-0B61-455D-BECB-96DEDE2C871D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityLibrary", "UtilityLibrary\UtilityLibrary.csproj", "{3226034D-0B61-455D-BECB-96DEDE2C871D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "IHSCartography_Setup", "IHSCartography_Setup\IHSCartography_Setup.vdproj", "{B314D31A-2263-4F70-AC73-28D016E47147}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3226034D-0B61-455D-BECB-96DEDE2C871D} = {3226034D-0B61-455D-BECB-96DEDE2C871D}
+		{29C55CB7-4A95-46ED-9274-CCD906339A48} = {29C55CB7-4A95-46ED-9274-CCD906339A48}
+		{0A46DCC9-3DCA-43A3-9B0B-A00658D6D7C5} = {0A46DCC9-3DCA-43A3-9B0B-A00658D6D7C5}
+		{FEF951E4-5F4B-4944-B6B4-F61BB5FDB47B} = {FEF951E4-5F4B-4944-B6B4-F61BB5FDB47B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://veng2papp01:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PresentationLayer\\PresentationLayer.csproj
+		SccProjectName1 = PresentationLayer
+		SccLocalPath1 = PresentationLayer
+		SccProjectUniqueName2 = BusinessAccess\\BusinessAccess.csproj
+		SccProjectName2 = BusinessAccess
+		SccLocalPath2 = BusinessAccess
+		SccProjectUniqueName3 = DataAccess\\DataAccess.csproj
+		SccProjectName3 = DataAccess
+		SccLocalPath3 = DataAccess
+		SccProjectUniqueName4 = UtilityLibrary\\UtilityLibrary.csproj
+		SccProjectName4 = UtilityLibrary
+		SccLocalPath4 = UtilityLibrary
+		SccProjectUniqueName5 = IHSCartography_Setup\\IHSCartography_Setup.vdproj
+		SccProjectName5 = IHSCartography_Setup
+		SccLocalPath5 = IHSCartography_Setup
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29C55CB7-4A95-46ED-9274-CCD906339A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C55CB7-4A95-46ED-9274-CCD906339A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C55CB7-4A95-46ED-9274-CCD906339A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C55CB7-4A95-46ED-9274-CCD906339A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF951E4-5F4B-4944-B6B4-F61BB5FDB47B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF951E4-5F4B-4944-B6B4-F61BB5FDB47B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF951E4-5F4B-4944-B6B4-F61BB5FDB47B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF951E4-5F4B-4944-B6B4-F61BB5FDB47B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A46DCC9-3DCA-43A3-9B0B-A00658D6D7C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A46DCC9-3DCA-43A3-9B0B-A00658D6D7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A46DCC9-3DCA-43A3-9B0B-A00658D6D7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A46DCC9-3DCA-43A3-9B0B-A00658D6D7C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3226034D-0B61-455D-BECB-96DEDE2C871D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3226034D-0B61-455D-BECB-96DEDE2C871D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3226034D-0B61-455D-BECB-96DEDE2C871D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3226034D-0B61-455D-BECB-96DEDE2C871D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B314D31A-2263-4F70-AC73-28D016E47147}.Debug|Any CPU.ActiveCfg = Debug
+		{B314D31A-2263-4F70-AC73-28D016E47147}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
